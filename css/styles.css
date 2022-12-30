@@ -588,7 +588,7 @@ a.arrow-link:hover {
 	box-shadow: 1px 1px 1px rgba(0,0,0,0.1) inset, 1px 1px 1px rgba(255,255,255,0.1);
 	border: 2px solid #FFDF00;
 }
-img, video, iframe, embed, object {
+img, video, embed, object {
 	max-width: 100%;
 	height: auto;
 }
@@ -818,15 +818,36 @@ left: 2px;
 	font-size: 18px;
 }
 /* --Portfolio----- */
-#work {
+#reencuentro {
  background:rgb(34, 34, 34);
 }
-#work h2 { 
+#reencuentro h2 { 
 color:#fff;
 }
-#work p { 
+#reencuentro h1 { 
+color:#C0C0C0;
+}
+#reencuentro p { 
 color:#fff;
 }
+
+#minireencuentro {
+ background:rgb(0, 128, 255);
+}
+#minireencuentro h1 { 
+color:#000;
+}
+#minireencuentro h2 { 
+color:#000;
+}
+#minireencuentro p { 
+color:#000;
+text-align: justify;
+}
+
+
+minireencuentro
+
 #portfolio {
 	width: 100%
 }
@@ -867,7 +888,7 @@ border-bottom: solid #fff 1px;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #000;
+	background-color: #FF0;
 	background-color: rgba(0,0,0,0.6);
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
